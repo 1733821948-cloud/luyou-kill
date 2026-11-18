@@ -1,0 +1,13 @@
+interface:
+  display_name: 旅游kill
+  short_description: 先问八项，选美食景点、检查节奏，逐小时规划全部交通并交付可执行PDF攻略
+  default_prompt: 用 $luyou-kill 帮我做旅游攻略，先按八项开局问题收集信息。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
